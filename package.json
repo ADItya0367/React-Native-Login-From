@@ -1,0 +1,25 @@
+{
+  "name": "projectfirst",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~50.0.17",
+    "expo-status-bar": "~1.11.1",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-lottie": "^1.2.4",
+    "react-native": "0.73.6",
+    "react-native-animatable": "^1.4.0",
+    "react-native-vector-icons": "^10.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
