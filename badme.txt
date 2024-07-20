@@ -1,0 +1,16 @@
+// include in app.js return se phle
+
+
+  const [splash, setsplash] = useState('true');
+  useEffect(() => {
+    setTimeout(() => {
+      setsplash('false');
+    }, 6000);
+  });
+  
+
+   return <>
+  {
+    splash === 'true' ? <Splashscreen /> : <Screen1/>
+  }
+  </>
